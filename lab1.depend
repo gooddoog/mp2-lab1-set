@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1537210947 source:d:\projects\repositories\mp2-lab1-set\mp2-lab1-set\src\tbitfield.cpp
+	"tbitfield.h"
+
+1537209884 source:d:\projects\repositories\mp2-lab1-set\mp2-lab1-set\src\tset.cpp
+	"tset.h"
+
+1537124549 source:d:\projects\repositories\mp2-lab1-set\mp2-lab1-set\src\main.cpp
+	<iomanip>
+	"tbitfield.h"
+	<windows.h>
+	"tset.h"
+
+1537212234 source:d:\projects\repositories\mp2-lab1-set\mp2-lab1-set\src\prime.cpp
+	<iomanip>
+	"tbitfield.h"
+	"tset.h"
+
