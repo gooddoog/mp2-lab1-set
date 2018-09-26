@@ -6,6 +6,11 @@
 // Битовое поле
 
 #include "tbitfield.h"
+#include <algorithm>
+#include <string>
+#include <iostream>
+
+using namespace std;
 
 TBitField::TBitField(int len)
 {
@@ -80,6 +85,8 @@ TBitField& TBitField::operator=(const TBitField &bf) // присваивание
 	pMem = new TELEM[MemLen];
 	for (int i = 0; i < MemLen; ++i)
 		pMem[i] = bf.pMem[i];
+	cout << endl << *this << " " << bf << endl;
+	return *this;
 }
 
 int TBitField::operator==(const TBitField &bf) const // сравнение

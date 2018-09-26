@@ -16,3 +16,18 @@
 	"tbitfield.h"
 	"tset.h"
 
+1537965880 source:d:\projects\repositories\mp2-lab1-set\src\tbitfield.cpp
+	"tbitfield.h"
+	<algorithm>
+	<string>
+	<iostream>
+
+1537966583 source:d:\projects\repositories\mp2-lab1-set\src\tset.cpp
+	"tset.h"
+
+1537966864 source:d:\projects\repositories\mp2-lab1-set\src\prime.cpp
+	<iomanip>
+	"tbitfield.h"
+	"tset.h"
+	"tset.h"
+
